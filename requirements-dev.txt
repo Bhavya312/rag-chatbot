@@ -1,0 +1,7 @@
+-r requirements.txt
+# Dev/test tooling.
+pytest>=8.0
+httpx>=0.27
+# Optional: real OpenAI mode (embeddings + chat). Only needed when
+# OPENAI_API_KEY is set; mock mode never imports this package.
+openai>=1.0
